@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding: 20px;
+}
+
+#task-list {
+    margin-bottom: 20px;
+}
+
+#pomodoro-timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#time {
+    font-size: 2em;
+}

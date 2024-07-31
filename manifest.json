@@ -9,17 +9,13 @@
     },
     "action": {
       "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-      }
+      "default_icon": "icons/RostamRoutines-tlogo.png"
     },
     "options_page": "options.html",
     "icons": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icons/RostamRoutines-tlogo.png",
+      "48": "icons/RostamRoutines-tlogo.png",
+      "128": "icons/RostamRoutines-tlogo.png"
     }
   }
   
