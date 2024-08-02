@@ -3,6 +3,8 @@ body {
     width: 300px;
     margin: 0;
     padding: 0;
+    background-color: #FFFFF0; /* Ivory */
+    color: #2F4F4F; /* Dark Slate Gray */
 }
 
 #container {
@@ -11,14 +13,67 @@ body {
 
 #task-list {
     margin-bottom: 20px;
+    background-color: #FFD700; /* Gold */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list li button {
+    background-color: #DC143C; /* Crimson Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#task-list li button:hover {
+    background-color: #A00000; /* Darker shade of red */
 }
 
 #pomodoro-timer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1C39BB; /* Persian Blue */
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFF0; /* Ivory */
 }
 
 #time {
     font-size: 2em;
+}
+
+button {
+    background-color: #DC143C; /* Crimson Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A00000; /* Darker shade of red */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2F4F4F;
+    border-radius: 5px;
 }
