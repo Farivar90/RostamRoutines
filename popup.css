@@ -70,7 +70,7 @@ button:hover {
     background-color: #A00000; /* Darker shade of red */
 }
 
-input[type="text"] {
+input[type="text"], input[type="number"] {
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
